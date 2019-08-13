@@ -1,0 +1,55 @@
+//Products: http://localhost:8080/v1/products
+[
+	{
+		"name": "orange",
+		"price": 2,
+		"taxable": false
+	},
+	{
+		"name": "apple",
+		"price": 5,
+		"taxable": false
+	},
+	{
+		"name": "brush",
+		"price": 1,
+		"taxable": true
+	}
+]
+
+
+// Invoices: http://localhost:8080/v1/invoices
+[{
+  "customerId": "1",
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 2
+    },
+    {
+      "productId": 2,
+      "quantity": 5
+    },
+    {
+      "productId": 3,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "customerId": "2",
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 5
+    },
+    {
+      "productId": 2,
+      "quantity": 2
+    },
+    {
+      "productId": 3,
+      "quantity": 3
+    }
+  ]
+}]
